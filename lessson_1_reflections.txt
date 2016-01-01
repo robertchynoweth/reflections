@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff only showed the differences between the 2 files. This saved me from looking through all the code for differences. Also, the changes were on consecutive lines which made it easy to spot changes.
+
+How could having easy access to the entire history of a file make a you more efficient programmer in the long term?
+Being able to see how you got from messy code to well formed code can help you avoid making the same messy code in the future. Also, if there was something removed from the file that should not have been, it's easy to reimplement the old code by looking at the history.
+
+What do you think the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pros of manually choosing when to commit is it allows you to commit in a manor that suits your ability to navigate change sets in code. The con is you could be terrible on figuring out what constitutes a good change set amount.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because code changes usually span multiple files. For instance changing a method's return type effects the other code files that call that method.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log list all of the change sets or commits done to a repository. Git diff shows you the differences between commits.
+
+How might using version control make you more confident to make changes that could break something?
+You would be more confident because anything you break could be fixed by digging the non-broken code out of the repository to fix the problem.
+
+Now that you've your workspace set up, what do you want to try using Git for?
+I want to use git to track my coding on this iOS Udacity course I've been neglecting for the past 2 months.
+
