@@ -10,3 +10,6 @@ Forks are used to create a copy of a repository in GitHub and not locally. It's 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Enables faster checking of the previous commits and faster diffs.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+TFS is a good alternative as it has all the same collobration features (probably because git had them first). Everything would be about the same difficulty. However, if I couldn't use a source control, it would probably be a mix of different communication tools like email and folder locations for files. This would be messy, confusing and take way more time than necessary.
+
